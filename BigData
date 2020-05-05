@@ -4,3 +4,19 @@ import matplotlib.pyplot as plt
 import time
 import pandas as pd 
 from timeit import default_timer as timer
+
+
+
+
+
+# number of elements in list
+n = 250
+
+# list of unsorted items
+items = [int(random.random()*n) for _ in range(n)]
+
+# value to be searched in list
+value = int(random.random()*n)
+
+# sorted list 
+sorted_items = sorted(items)
